@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    max-width: clamp(60rem, 70%, 80rem);
+}
+
+.contact {
+    text-align: center;
+}
+
+.skills {
+    margin: auto 5%;
+    text-align: center;
+}
+
+.edu-table {
+    display: grid;
+    grid-template-columns: 30rem 10rem;
+}
+
+.edu-table > div {
+    border-bottom: 1px solid;
+}
